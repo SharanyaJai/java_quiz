@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="600.0" text="Teacher Login" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="548.0" fitWidth="600.0">
+               <image>
+                  <Image url="@bg.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="223.0" layoutY="351.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="145.0" text="LOGIN">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="195.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="48.0" layoutY="182.0" prefHeight="27.0" prefWidth="136.0" text="User name" textFill="WHITE" />
+            <Label layoutX="48.0" layoutY="241.0" prefHeight="27.0" prefWidth="124.0" text="Password" textFill="WHITE" />
+            <Label layoutX="48.0" layoutY="295.0" prefHeight="27.0" prefWidth="113.0" text="Andrew id" textFill="WHITE" />
+            <TextField layoutX="214.0" layoutY="176.0" />
+            <TextField layoutX="214.0" layoutY="289.0" />
+            <PasswordField layoutX="214.0" layoutY="235.0" />
+            <ImageView fitHeight="89.0" fitWidth="183.0" layoutX="205.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="134.0" fitWidth="348.0" layoutX="144.0" layoutY="25.0">
+               <image>
+                  <Image url="@cmubg.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="223.0" layoutY="402.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="145.0" text="SIGN UP">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+</TitledPane>

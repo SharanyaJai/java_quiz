@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="620.0" text="Student Sign Up" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="504.0" prefWidth="607.0">
+         <children>
+            <ImageView fitHeight="470.0" fitWidth="600.0">
+               <image>
+                  <Image url="@bg.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="228.0" layoutY="388.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="119.0" text="SIGN UP">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="59.0" layoutY="124.0" prefHeight="27.0" prefWidth="168.0" text="Name" textFill="WHITE" />
+            <Label layoutX="57.0" layoutY="168.0" prefHeight="27.0" prefWidth="167.0" text="Password" textFill="WHITE" />
+            <Label layoutX="56.0" layoutY="222.0" prefHeight="27.0" prefWidth="168.0" text="Confirm Password" textFill="WHITE" />
+            <Label layoutX="58.0" layoutY="279.0" prefHeight="27.0" prefWidth="170.0" text="Andrew-id" textFill="WHITE" />
+            <TextField layoutX="270.0" layoutY="118.0" />
+            <TextField layoutX="270.0" layoutY="267.0" />
+            <TextField layoutX="270.0" layoutY="323.0" />
+            <Label layoutX="57.0" layoutY="329.0" prefHeight="27.0" prefWidth="166.0" text="E-mail" textFill="WHITE" />
+            <PasswordField layoutX="270.0" layoutY="168.0" />
+            <PasswordField layoutX="270.0" layoutY="216.0" />
+            <ImageView fitHeight="95.0" fitWidth="348.0" layoutX="126.0" layoutY="8.0">
+               <image>
+                  <Image url="@cmubg.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
